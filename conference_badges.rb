@@ -12,8 +12,7 @@ end
 
 def assign_rooms(array)
    array.map.with_index do |name, i|
-   index += 1
-   "Hello, #{name}! You'll be assigned to room #{index}!"
+   "Hello, #{name}! You'll be assigned to room #{i+1} !"
  end
  end
  
