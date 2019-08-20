@@ -11,10 +11,9 @@ end
 end
 
 def assign_rooms(array)
-   counter = 0
-   array.map.with_index do |name|
-   counter += 1
-   "Hello, #{name}! You'll be assigned to room #{counter}!"
+   array.map.with_index do |name, i|
+   index += 1
+   "Hello, #{name}! You'll be assigned to room #{index}!"
  end
  end
  
