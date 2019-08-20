@@ -12,7 +12,7 @@ end
 
 def assign_rooms(array)
    counter = 0
-   array.each_with_index.map do |name|
+   array.map.with_index do |name|
    counter += 1
    "Hello, #{name}! You'll be assigned to room #{counter}!"
  end
