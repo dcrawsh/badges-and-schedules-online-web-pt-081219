@@ -4,6 +4,7 @@ def badge_maker(name)
 end
 
 name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def batch_badge_creator(array)
   array.map do |name|
   "Hello, my name is #{name}."
@@ -17,6 +18,7 @@ def assign_rooms(array)
  end
  
  def printer(array)
-  
+   batch_badge_creator(name_array).each do |badge|
+     puts 
  end
   
